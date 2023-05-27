@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src='main.js'></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tamagotchi</h1>
+        <div class="image-container">
+            <img class="image" src="images/tama.png">
+        </div>
+        <div class="status">
+            <p>Hambre: <span id="hunger">50</span></p>
+            <p>Felicidad: <span id="happiness">0</span></p>
+        </div>
+        <div class="buttons">
+            <button onclick="feed()">Alimentar</button>
+            <button onclick="play()">Jugar</button>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
